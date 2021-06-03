@@ -1,7 +1,7 @@
 {
   "name": "@we-mobius/mobius-for-todomvc",
   "version": "1.0.0",
-  "description": "Just a UI framework.",
+  "description": "Use Mobius Framework to create TodoMVC example application..",
   "type": "module",
   "main": "./src/main.js",
   "keywords": [
