@@ -37,6 +37,17 @@ There are two ways to get started with this example:
 - local approach: clone this repo to your local machine, then run `npm install && npm run serve`
 - online approach: visit on [StackBlitz](https://stackblitz.com/edit/mobius-for-todomvc?file=README.md) or [CodeSandbox](https://codesandbox.io/s/mobius-for-todomvc-iv8x7?file=README.md)
 
+## TODO
+
+- [x] [No todos](https://github.com/tastejs/todomvc/blob/master/app-spec.md#no-todos)
+- [x] [New todo](https://github.com/tastejs/todomvc/blob/master/app-spec.md#new-todo)
+- [x] [Item](https://github.com/tastejs/todomvc/blob/master/app-spec.md#item)
+- [x] [Editing](https://github.com/tastejs/todomvc/blob/master/app-spec.md#editing)
+- [x] [Counter](https://github.com/tastejs/todomvc/blob/master/app-spec.md#counter)
+- [x] [Clear completed button](https://github.com/tastejs/todomvc/blob/master/app-spec.md#clear-completed-button)
+- [ ] [Persistence](https://github.com/tastejs/todomvc/blob/master/app-spec.md#persistence)
+- [ ] [Routing](https://github.com/tastejs/todomvc/blob/master/app-spec.md#routing)
+
 ## Credit
 
 Created by [cigaret](http://cigaret.world).
