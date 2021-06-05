@@ -7,12 +7,26 @@ const {
 
 const deepClone = tar => JSON.parse(JSON.stringify(tar))
 const DEFAULT_TODO = { title: '', isCompleted: false, isEditing: false }
+const EXAMPLE_TODOS = [
+  {
+    title: 'Taste JavaScript',
+    id: 1998,
+    isCompleted: true,
+    isEditing: false
+  },
+  {
+    title: 'Buy Unicorn',
+    id: 624,
+    isCompleted: false,
+    isEditing: false
+  }
+]
 
 export const todosDriver = createGeneralDriver({
   prepareSingletonLevelContexts: (options, driverLevelContexts) => {
 
     // todos: [{ title: string, isCompleted: boolean, isEditing: boolean }]
-    const todosRD = replayWithLatest(1, Data.of([]))
+    const todosRD = replayWithLatest(1, Data.of(EXAMPLE_TODOS))
 
     // add todo item
     const addD = Data.empty()

@@ -21,7 +21,7 @@ export const footerElement = makeElementMaker({
         <!-- This should be "0 items left" by default -->
         <span class="todo-count"><strong>${remaining}</strong> ${pluralize('item', remaining)} left</span>
         <!-- Remove this if you don't implement routing -->
-        <ul class="filters">
+        <ul class="filters" style="display: none;">
           <li>
             <a class="selected" href="#/">All</a>
           </li>
