@@ -5,8 +5,8 @@ const {
   Data, replayWithLatest,
   binaryTweenPipeAtom,
   makeGeneralEventHandler
-} = MobiusUtils
-const { makeInstantComponent } = MobiusUI
+} = window.MobiusUtils
+const { makeInstantComponent } = window.MobiusUI
 
 const [toggleEditingHandlerRD, , toggleEditingD] = makeGeneralEventHandler(e => e.target.dataset.index)
 const [removeHandlerRD, , removeD] = makeGeneralEventHandler(e => e.target.dataset.index)

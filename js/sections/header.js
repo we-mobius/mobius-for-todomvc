@@ -4,8 +4,8 @@ const {
   Data, Mutation, replayWithLatest,
   pipeAtom, binaryTweenPipeAtom,
   makeGeneralEventHandler
-} = MobiusUtils
-const { makeInstantComponent } = MobiusUI
+} = window.MobiusUtils
+const { makeInstantComponent } = window.MobiusUI
 
 const [addHandlerRD, , addTodoD] = makeGeneralEventHandler(title => ({ title }))
 

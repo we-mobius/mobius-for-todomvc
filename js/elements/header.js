@@ -1,4 +1,4 @@
-const { makeElementMaker } = MobiusUI
+const { makeElementMaker } = window.MobiusUI
 
 const ENTER_KEY = 13
 

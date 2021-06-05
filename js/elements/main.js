@@ -1,4 +1,4 @@
-const { makeElementMaker, repeat } = MobiusUI
+const { makeElementMaker, repeat } = window.MobiusUI
 
 const ENTER_KEY = 13
 const ESC_KEY = 27

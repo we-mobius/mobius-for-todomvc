@@ -1,4 +1,4 @@
-const { makeElementMaker } = MobiusUI
+const { makeElementMaker } = window.MobiusUI
 
 const pluralize =  (word, count) => word + (count === 1 ? '' : 's')
 

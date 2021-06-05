@@ -3,7 +3,7 @@ const {
   replayWithLatest, pipeAtom,
   createGeneralDriver, useGeneralDriver,
   makeScopeManager
-} = MobiusUtils
+} = window.MobiusUtils
 
 const deepClone = tar => JSON.parse(JSON.stringify(tar))
 const DEFAULT_TODO = { title: '', isCompleted: false, isEditing: false }

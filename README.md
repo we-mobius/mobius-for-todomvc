@@ -15,7 +15,7 @@ The project is created from [TodoMVC App Template](https://github.com/tastejs/to
 There are two ways to get started with this example:
 
 - local approach: clone this repo to your local machine, then run `npm install && npm run serve`
-- online approach: visit on [StackBlitz](https://stackblitz.com/edit/mobius-for-todomvc?file=README.md) or [CodeSandbox](https://codesandbox.io/s/mobius-for-todomvc-iv8x7?file=README.md)
+- online approach: visit on [StackBlitz](https://stackblitz.com/edit/mobius-for-todomvc?file=README.md) or [CodeSandbox](https://codesandbox.io/s/mobius-for-mv-vcdsg?file=/README.md)
 
 ## Functionality
 

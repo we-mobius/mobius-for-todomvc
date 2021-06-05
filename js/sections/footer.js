@@ -1,13 +1,13 @@
 import { footerElement } from '../elements/footer.js'
 import { todosDriverScopeManager } from '../drivers/todos.js'
 
-const { makeInstantComponent } = MobiusUI
+const { makeInstantComponent } = window.MobiusUI
 const {
   Data,
   replayWithLatest, binaryTweenPipeAtom,
   mapT,
   makeGeneralEventHandler
-} = MobiusUtils
+} = window.MobiusUtils
 
 const { inputs: { clearCompleted }, outputs: { todos: todosRD } } = todosDriverScopeManager.scope('app')
 
